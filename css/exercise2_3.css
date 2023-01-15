@@ -1,0 +1,63 @@
+
+
+/*First we are gonna set some general styles*/
+/*This will allow us to make calculus easily, counts from border of box*/
+*{
+    box-sizing: border-box;
+}
+
+/*This removes margins and padding from elements*/
+*,
+*:before,
+*:after {
+    margin: 0;
+
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    height: 75px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.principal {
+    padding-top: 20px;
+}
+
+.principal div {
+    display: block;
+    width: 400px;
+    height:200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.principal > div > p {
+    text-align: center;
+    height: 80px;   
+    padding-top: 60px;
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+.principal div.is-active{
+    display: block;
+}
+
+.principal section {
+
+    display: flex;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.principal section>button {
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
